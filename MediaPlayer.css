@@ -1,0 +1,127 @@
+body{
+	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.base{
+	height: 500px;
+	width: 924px;
+	background: linear-gradient(#4B4A50, #060608);
+	position: fixed;
+}
+
+.nav_bar{
+	height: 500px;
+	width: 200px;
+	float: left;
+	background: linear-gradient(#222323, #0B0C0C);
+	opacity: 0.7;
+}
+
+.nav_item{
+	margin-top: 30px;
+	list-style-type: none;
+	color: #FFF;
+	margin-left: 0;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.nav_item li{
+	padding: 10px;
+	font-size: 16px;
+}
+
+.nav_item li:hover{
+	color: #75FF75;
+	cursor: pointer;
+}
+
+.music_collection{
+	width: auto;
+	overflow: auto;
+	height: 500px;
+	float: left;
+	margin: 32px;
+}
+
+.collection_cover{
+	width: 165px;
+	height: 200px;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.collection_cover img{
+	height: 150px;
+	width: 150px;
+}
+
+.album_info{
+	height: 500px;
+	width: 300px;
+	position: relative;
+	float: left;
+}
+
+.album_cover{
+	position: absolute;
+	margin-top: 30px;
+	left: 50%;
+	margin-left: -125px;
+	height: 400px;
+	width: 250px;
+	text-align: center;
+	color: #fff;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+.desc{
+	font-size: 13px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.track_info{
+	width: 624px;
+	height: 500px;
+	color: #fff;
+	float: left;
+}
+
+.track_title{
+	width: 500px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.artist{
+	color: #909090;
+	font-size: 13px;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-left: 15px
+}
+
+li{
+	font-size: 13px;
+}
+
+img{
+	height: 230px;
+	width: 230px;
+	display: block;
+	margin: auto;
+	box-shadow: 0 0 8px #060608;
+}
