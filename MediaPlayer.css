@@ -28,8 +28,8 @@ body{
 }
 
 .nav_item li{
-	padding: 10px 10px 10px 20px;
-	font-size: 16px;
+	padding: 15px 10px 15px 0px;
+	font-size: 15px;
 	border-bottom: 1px solid #fff;
 }
 
@@ -45,6 +45,7 @@ body{
 	float: left;
 	box-sizing: border-box;
 	padding: 32px;
+	display: none;
 }
 
 .music_collection h1{
@@ -62,7 +63,7 @@ body{
 
 .collection_cover{
 	width: 160px;
-	height: 195px;
+	height: 205px;
 	float: left;
 	color: #fff;
 	font-size: 12px;
