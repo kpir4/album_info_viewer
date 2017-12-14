@@ -5,7 +5,7 @@ body{
 .base{
 	height: 500px;
 	width: 924px;
-	background: linear-gradient(#4B4A50, #060608);
+	background: linear-gradient(#3b547c, #060608);
 	position: fixed;
 }
 
@@ -13,6 +13,7 @@ body{
 	height: 500px;
 	width: 200px;
 	float: left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: linear-gradient(#222323, #0B0C0C);
 	opacity: 0.7;
 }
@@ -21,14 +22,15 @@ body{
 	margin-top: 30px;
 	list-style-type: none;
 	color: #FFF;
-	margin-left: 0;
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-weight: bold;
 }
 
 .nav_item li{
-	padding: 10px;
+	padding: 10px 10px 10px 20px;
 	font-size: 16px;
+	border-bottom: 1px solid #fff;
 }
 
 .nav_item li:hover{
@@ -37,26 +39,40 @@ body{
 }
 
 .music_collection{
-	width: auto;
+	width: 724px;
 	overflow: auto;
 	height: 500px;
 	float: left;
-	margin: 32px;
+	box-sizing: border-box;
+	padding: 32px;
+}
+
+.music_collection h1{
+	font-size: 26px;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+/* Adds padding at the bottom when overflow occurs */
+.music_collection > :last-child {
+	margin-bottom: 25px;
 }
 
 .collection_cover{
-	width: 165px;
-	height: 200px;
+	width: 160px;
+	height: 195px;
 	float: left;
 	color: #fff;
 	font-size: 12px;
-	font-weight: bold;
 	text-align: center;
 }
 
 .collection_cover img{
 	height: 150px;
 	width: 150px;
+	margin-bottom: 5px;
 }
 
 .album_info{
@@ -112,10 +128,6 @@ body{
 	display: inline-block;
 	padding-bottom: 10px;
 	padding-left: 15px
-}
-
-li{
-	font-size: 13px;
 }
 
 img{
