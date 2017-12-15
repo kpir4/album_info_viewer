@@ -40,7 +40,7 @@ body{
 
 .music_collection{
 	width: 724px;
-	overflow: auto;
+	overflow: hidden;
 	height: 500px;
 	float: left;
 	box-sizing: border-box;
@@ -61,6 +61,10 @@ body{
 	margin-bottom: 25px;
 }
 
+.show{
+	display: block;
+}
+
 .collection_cover{
 	width: 160px;
 	height: 205px;
@@ -68,12 +72,19 @@ body{
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 2000ms;
 }
 
 .collection_cover img{
 	height: 150px;
 	width: 150px;
 	margin-bottom: 5px;
+}
+
+.is_active{
+	opacity: 1;
 }
 
 .album_info{

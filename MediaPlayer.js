@@ -64,11 +64,24 @@ nav.addEventListener('click', function(e){
 		for(var i = 0; i < collections.length; i++){
 			if("collection_" + collection_num != collections[i].id){
 				collection_state["collection_" + collection_num] = false;
-				collections[i].style.display = "none";
+				collections[i].classList.remove("show");
+				var albums = collections[i].getElementsByClassName("collection_cover");
+				for(var j = 0; j < albums.length; j++){
+					albums[j].removeAttribute("style");
+				}
 			}
 		}
 
+		albums = document.getElementById("collection_" + collection_num).getElementsByClassName("collection_cover");
+
 		const collection_wrapper = document.getElementById("collection_" + collection_num);
-		collection_wrapper.style.display = "block";
+		collection_wrapper.classList.add("show");
+		setTimeout(function(){
+			for(i = 0; i < albums.length; i++){
+				albums[i].style.transitionDelay = Math.floor(Math.random() * 501 + 200) + "ms";
+				albums[i].classList.add("is_active");
+			}
+		}, 200);
 	}
 })
+
