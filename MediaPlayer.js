@@ -1,5 +1,4 @@
 const wrapper = document.getElementById("wrapper");
-var collection_state = {};
 
 function load_collection(collection_set){
 	var navigation = document.getElementById("navigation");
@@ -15,6 +14,7 @@ function load_collection(collection_set){
 
 function load_albums(album_set, collection_set){
 	for (var i = 0; i < 2; i++){
+
 		var collection_wrapper = document.createElement("div");
 		collection_wrapper.classList.add("music_collection");
 		collection_wrapper.setAttribute("id", "collection_" + (i+1));
@@ -25,9 +25,6 @@ function load_albums(album_set, collection_set){
 		collection_wrapper.appendChild(heading);
 
 		var collection = album_set["collection_" + (i+1)];
-
-		// Initialise all music collection displays
-		collection_state["collection_" + (i+1)] = false;
 
 		for(var j = 0; j < collection.length; j++){
 			// Create album cover collection elements
@@ -42,6 +39,7 @@ function load_albums(album_set, collection_set){
 			// Add classes
 			cover_wrapper.classList.add("collection_cover");
 
+			// Add to DOM
 			cover_wrapper.appendChild(cover);
 			cover_wrapper.appendChild(title);
 			collection_wrapper.appendChild(cover_wrapper);
@@ -50,38 +48,39 @@ function load_albums(album_set, collection_set){
 }
 
 // Changes displayed music collection
+var collection;
 const nav = document.getElementById("navigation");
 nav.addEventListener('click', function(e){
 	if(e.target.tagName == 'LI'){
+
 		// Get collection number
 		const collection_num = e.target.getAttribute("id").slice(-1);
 
 		// Check if collection clicked is already displayed
-		collection_state["collection_" + collection_num] = true;
 		const collections = document.querySelectorAll(".music_collection");
 
-		// 
-		for(var i = 0; i < collections.length; i++){
-			if("collection_" + collection_num != collections[i].id){
-				collection_state["collection_" + collection_num] = false;
-				collections[i].classList.remove("show");
-				var albums = collections[i].getElementsByClassName("collection_cover");
-				for(var j = 0; j < albums.length; j++){
-					albums[j].removeAttribute("style");
-				}
+		// Removes style and classes from previous collection
+		if(collection){
+			collection.classList.remove("show");
+			var albums = collection.getElementsByClassName("collection_cover");
+			for(var i = 0; i < albums.length; i++){
+				albums[i].classList.remove("is_active")
+				albums[i].removeAttribute("style");
 			}
 		}
 
 		albums = document.getElementById("collection_" + collection_num).getElementsByClassName("collection_cover");
 
-		const collection_wrapper = document.getElementById("collection_" + collection_num);
-		collection_wrapper.classList.add("show");
+		collection = document.getElementById("collection_" + collection_num);
+		collection.classList.add("show");
+
+		// Ensures animation works after display change
 		setTimeout(function(){
-			for(i = 0; i < albums.length; i++){
+			for(var i = 0; i < albums.length; i++){
 				albums[i].style.transitionDelay = Math.floor(Math.random() * 501 + 200) + "ms";
 				albums[i].classList.add("is_active");
 			}
-		}, 200);
+		}, 20);
 	}
 })
 

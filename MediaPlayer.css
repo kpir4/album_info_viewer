@@ -40,7 +40,7 @@ body{
 
 .music_collection{
 	width: 724px;
-	overflow: hidden;
+	overflow: auto;
 	height: 500px;
 	float: left;
 	box-sizing: border-box;
