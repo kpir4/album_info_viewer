@@ -49,12 +49,20 @@ function load_albums(album_set, collection_set){
 
 // Changes displayed music collection
 var collection;
+var collection_link;
 const nav = document.getElementById("navigation");
 nav.addEventListener('click', function(e){
 	if(e.target.tagName == 'LI'){
 
+		if(collection_link){
+			collection_link.removeAttribute("style");
+		}
+		
+		collection_link = e.target;
+		collection_link.style.color = "#5eff5e";
+
 		// Get collection number
-		const collection_num = e.target.getAttribute("id").slice(-1);
+		const collection_num = collection_link.getAttribute("id").slice(-1);
 
 		// Check if collection clicked is already displayed
 		const collections = document.querySelectorAll(".music_collection");
