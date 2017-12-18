@@ -2,21 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="MediaPlayer.css">
-	<script type="text/javascript" src="music_data.js"></script>
+	<link rel="stylesheet" href="https://dl.dropbox.com/s/l4dz8wax7e78i93/MediaPlayer.css?dl=0">
+	<script type="text/javascript" src="https://dl.dropbox.com/s/4dm0aody7pgyo9w/music_data.js?dl=0"></script>
 </head>
 <body>
 <div class="base" id="wrapper">
 	<div class="nav_bar">
 		<ul class="nav_item" id="navigation">
-			<li id="collection_0">Information</li>
+			<li id="nav_item_0">Information</li>
 		</ul>
 	</div>
+	<div class="music_collection" id="collection_0">
+		<h1>Initial D Music Collection</h1>
+		<img src="[bbtimg=172519]" class="logo">
+		<h2>Acknowledgements</h2>
+		<p>Thank you to <a href="http://www.bakabt.me/user/883062/r/El%20Mendigo.html">El Mendigo</a>,
+			<a href="http://www.bakabt.me/user/718270/macros74.html">macros74</a> and
+			<a href="http://www.bakabt.me/user/599310/nonehere2.html">nonehere2</a>
+			for their help in compiling and gathering the files and information for this collection.
+		</p>
+		<h2>Important Notice</h2>
+		<p>This music collection is not complete. Anyone with a FLAC or V0 version of the missing
+		albums, please contact me.</p>
+	</div>
 </div>
-<script type="text/javascript" src="MediaPlayer.js"></script>
+<script type="text/javascript" src="https://dl.dropbox.com/s/6etrxmjme4blx76/MediaPlayer.js?dl=0"></script>
 <script type="text/javascript">
 	load_nav_items(collections);
 	load_collections(music, collections);
+	const info_page = document.getElementById("collection_0");
+	info_page.classList.add("show");
+	const info_nav = document.getElementById("nav_item_0");
+	info_nav.style.color = "#5eff5e";
 </script>
 </body>
 </html>

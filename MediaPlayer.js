@@ -11,29 +11,30 @@ function load_nav_items(collection_set){
 	}
 
 	// Changes displayed music collection
-	var collection;
-	var collection_link;
+	var collection = document.getElementById("collection_0");
+	var collection_link = document.getElementById("nav_item_0");
 
 	navigation.addEventListener('click', function(e){
 		if(e.target.tagName == 'LI'){
 
+			// Remove the highlight of the previously clicked navigation item
 			if(collection_link){
 				collection_link.removeAttribute("style");
 			}
 			
+			// Add highlight to currently clicked navigation item
 			collection_link = e.target;
 			collection_link.style.color = "#5eff5e";
 
-			// Get collection number
 			const collection_num = collection_link.getAttribute("id").slice(-1);
-
-			// Check if collection clicked is already displayed
-			const collections = document.querySelectorAll(".music_collection");
 
 			// Removes style and classes from previous collection
 			if(collection){
+				console.log("sd");
 				collection.classList.remove("show");
 				var albums = collection.getElementsByClassName("collection_cover");
+
+				// Album cover animation
 				for(var i = 0; i < albums.length; i++){
 					albums[i].classList.remove("is_active")
 					albums[i].removeAttribute("style");

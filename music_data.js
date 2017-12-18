@@ -3698,7 +3698,7 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "[bbtimg=172503]",
+		"cover_img": "[bbtimg=17250]",
 		"title": "Blast My Desire",
 		"catalog": "AVCT-30081",
 		"release_date": "May 26, 2004",

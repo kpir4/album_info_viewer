@@ -40,6 +40,19 @@ body{
 	cursor: pointer;
 }
 
+.logo{
+	width: 400px;
+	height: 144px;
+	position: relative;
+	left: 50%;
+	margin-left: -200px;
+}
+
+a{
+	color: #30e871;
+	text-decoration: none;
+}
+
 .music_collection{
 	width: 724px;
 	overflow: auto;
@@ -48,6 +61,7 @@ body{
 	box-sizing: border-box;
 	padding: 32px;
 	display: none;
+	color: #fff;
 }
 
 .music_collection h1{
@@ -55,7 +69,14 @@ body{
 	text-align: center;
 	margin-top: -10px;
 	margin-bottom: 20px;
-	color: #fff;
+}
+
+.music_collection h2{
+	font-size: 22px;
+}
+
+.music_collection p{
+	font-size: 14px;
 }
 
 /* Adds padding at the bottom when overflow occurs */
@@ -82,6 +103,10 @@ body{
 .collection_cover img{
 	height: 150px;
 	width: 150px;
+	box-shadow: 0 0 8px #060608;
+	display: block;
+	box-sizing: border-box;
+	margin-left: 5px;
 	margin-bottom: 5px;
 }
 
@@ -131,6 +156,14 @@ body{
 	font-size: 13px;
 }
 
+.album_cover img{
+	height: 230px;
+	width: 230px;
+	display: block;
+	margin: auto;
+	box-shadow: 0 0 8px #060608;
+}
+
 .album_cover span{
 	display: inline-block;
 	padding: 5px;
@@ -166,14 +199,6 @@ body{
 	display: inline-block;
 	padding-bottom: 5px;
 	padding-left: 15px
-}
-
-img{
-	height: 230px;
-	width: 230px;
-	display: block;
-	margin: auto;
-	box-shadow: 0 0 8px #060608;
 }
 
 .button{
