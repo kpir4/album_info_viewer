@@ -1,7 +1,7 @@
 var collections = ["Original Soundtracks", "Selection Albums", "Mixes, Bests & Collections", "Singles & Others"];
 var music = {
 	"collection_1": [{
-		"cover_img": "[bbtimg=172471]",
+		"cover_img": "https://dl.dropbox.com/s/cqe4as1ktb8am1s/cover-1.jpg?dl=0",
 		"title": "Extra Stage OST",
 		"catalog": "AVCA-14111",
 		"release_date": "Feb 21, 2001",
@@ -148,7 +148,7 @@ var music = {
 			"artist": "Mako & Sayuki"
 		}]
 	},{
-		"cover_img": "[bbtimg=172472]",
+		"cover_img": "https://dl.dropbox.com/s/fitoyjk5nnw4gi4/cover-2.jpg?dl=0",
 		"title": "Special Stage OST",
 		"catalog": "AVCA-14600",
 		"release_date": "Jun 25, 2003",
@@ -320,7 +320,7 @@ var music = {
 			"artist": "Mr. Groove"
 		}]
 	},{
-		"cover_img": "[bbtimg=172473]",
+		"cover_img": "https://dl.dropbox.com/s/kltd5tzryn0yu85/cover-3.jpg?dl=0",
 		"title": "Arcade Stage 4 OST",
 		"catalog": "AVCA-26336~7",
 		"release_date": "Jun 27, 2007",
@@ -472,7 +472,7 @@ var music = {
 			"artist": "Ace"
 		}]
 	},{
-		"cover_img": "[bbtimg=172474]",
+		"cover_img": "https://dl.dropbox.com/s/4jz34toipk5376r/cover-4.jpg?dl=0",
 		"title": "Arcade Stage 5 OST",
 		"catalog": "AVCA-29098~9",
 		"release_date": " 	Mar 04, 2009",
@@ -645,7 +645,7 @@ var music = {
 		}]
 	}],
 	"collection_2": [{
-		"cover_img": "[bbtimg=172475]",
+		"cover_img": "https://dl.dropbox.com/s/cq8i4ud7iw1rsmt/cover-5.jpg?dl=0",
 		"title": "D Best Selection",
 		"catalog": "AVCD-11779",
 		"release_date": "Mar 08, 2000",
@@ -802,7 +802,7 @@ var music = {
 			"artist": "Dave McLoud"
 		}]
 	},{
-		"cover_img": "[bbtimg=172476]",
+		"cover_img": "https://dl.dropbox.com/s/4i53cbvmump9yk0/cover-6.jpg?dl=0",
 		"title": "D Selection",
 		"catalog": "AVCD-11657",
 		"release_date": "Jul 29, 1998",
@@ -884,7 +884,7 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "[bbtimg=172477]",
+		"cover_img": "https://dl.dropbox.com/s/289td0d8rmhigtp/cover-7.jpg?dl=0",
 		"title": "D Selection 2",
 		"catalog": "AVCD-11678",
 		"release_date": "Oct 28, 1998",
@@ -966,7 +966,7 @@ var music = {
 			"artist": "Mako & Sayuki"
 		}]
 	},{
-		"cover_img": "[bbtimg=172478]",
+		"cover_img": "https://dl.dropbox.com/s/kfjw5zmntk9pcg5/cover-8.jpg?dl=0",
 		"title": "D Selection 3",
 		"catalog": "AVCD-11698",
 		"release_date": "Jan 01, 1999",
@@ -1033,7 +1033,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172479]",
+		"cover_img": "https://dl.dropbox.com/s/jk0mpgea7mrw2to/cover-9.jpg?dl=0",
 		"title": "2nd Stage D Selection",
 		"catalog": "AVCD-11760",
 		"release_date": "Dec 01, 1999",
@@ -1105,7 +1105,7 @@ var music = {
 			"artist": "Mega NRG Man"
 		}]
 	},{
-		"cover_img": "[bbtimg=172480]",
+		"cover_img": "https://dl.dropbox.com/s/tz0uijzsx5d7u2g/cover-10.jpg?dl=0",
 		"title": "2nd Stage D Non-Stop Selection",
 		"catalog": "AVCD-11767",
 		"release_date": "Feb 09, 2000",
@@ -1197,7 +1197,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172481]",
+		"cover_img": "https://dl.dropbox.com/s/7cc7s67mlioj87u/cover-11.jpg?dl=0",
 		"title": "4th Stage D Non-Stop Selection",
 		"catalog": "AVCA-22520",
 		"release_date": "Jan 25, 2006",
@@ -1299,7 +1299,7 @@ var music = {
 			"artist": "Fastway"
 		}]
 	},{
-		"cover_img": "[bbtimg=172482]",
+		"cover_img": "https://dl.dropbox.com/s/mlgxj022r0229lh/cover-12.jpg?dl=0",
 		"title": "4th Stage D Selection +",
 		"catalog": "AVCA-22151",
 		"release_date": "Nov 17, 2004",
@@ -1376,7 +1376,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172483]",
+		"cover_img": "https://dl.dropbox.com/s/874ade9hs3hu7m1/cover-13.jpg?dl=0",
 		"title": "4th Stage D Selection 2",
 		"catalog": "AVCA-22393",
 		"release_date": "Sep 28, 2005",
@@ -1448,7 +1448,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172484]",
+		"cover_img": "https://dl.dropbox.com/s/cp0tmzriyjtukb7/cover-14.jpg?dl=0",
 		"title": "4th Stage D Selection 3",
 		"catalog": "AVCA-22940",
 		"release_date": "Sep 27, 2006",
@@ -1520,7 +1520,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172485]",
+		"cover_img": "https://dl.dropbox.com/s/g7tsw3buq4v8b9r/cover-15.jpg?dl=0",
 		"title": "Non-Stop Mix Takumi-Selection",
 		"catalog": "AVCA-26171",
 		"release_date": "Jan 31, 2007",
@@ -1627,7 +1627,7 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "[bbtimg=172486]",
+		"cover_img": "https://dl.dropbox.com/s/tj5ofoj0003gdea/cover-16.jpg?dl=0",
 		"title": "Non-Stop Mix Keisuke-Selection",
 		"catalog": "AVCA-26172",
 		"release_date": "Jan 31, 2007",
@@ -1730,7 +1730,7 @@ var music = {
 		}]
 	}],
 	"collection_3": [{
-		"cover_img": "[bbtimg=172487]",
+		"cover_img": "https://dl.dropbox.com/s/13n6iol9e45x01z/cover-17.jpg?dl=0",
 		"title": "D Non-Stop Mega Mix",
 		"catalog": "AVCD-11724",
 		"release_date": "Mar 10, 1999",
@@ -1887,7 +1887,7 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "[bbtimg=172488]",
+		"cover_img": "https://dl.dropbox.com/s/qk75ae0zkpb71l3/cover-18.jpg?dl=0",
 		"title": "4th Stage Non-Stop Mega Mix",
 		"catalog": "AVCA-26165",
 		"release_date": "Feb 28, 2007",
@@ -2104,7 +2104,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172489]",
+		"cover_img": "https://dl.dropbox.com/s/ipf1fbr41wbv1dp/cover-19.jpg?dl=0",
 		"title": "Special Stage Mega Mix",
 		"catalog": "AVCA-26478",
 		"release_date": "Jan 23, 2008",
@@ -2276,7 +2276,7 @@ var music = {
 			"artist": "Mr. Groove"
 		}]
 	},{
-		"cover_img": "[bbtimg=172490]",
+		"cover_img": "https://dl.dropbox.com/s/4cx5x2crjuluwr5/cover-20.jpg?dl=0",
 		"title": "Best Song 1998-2004",
 		"catalog": "AVCA-22880",
 		"release_date": "Sep 03, 2005",
@@ -2428,7 +2428,7 @@ var music = {
 			"artist": "Manuel"
 		}]
 	},{
-		"cover_img": "[bbtimg=172491]",
+		"cover_img": "https://dl.dropbox.com/s/c73aqyx4gk3520z/cover-21.jpg?dl=0",
 		"title": "4th Stage Supereuro Best",
 		"catalog": "AVCA-26031",
 		"release_date": "Dec 13, 2006",
@@ -2500,7 +2500,7 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "[bbtimg=172492]",
+		"cover_img": "https://dl.dropbox.com/s/d6h7h39vtox72or/cover-22.jpg?dl=0",
 		"title": "Supereuro Best",
 		"catalog": "AVCA-14065",
 		"release_date": "Nov 22, 2000",
@@ -2577,7 +2577,7 @@ var music = {
 			"artist": "Mickey B."
 		}]
 	},{
-		"cover_img": "[bbtimg=172493]",
+		"cover_img": "https://dl.dropbox.com/s/2prtyxnju1lkfdc/cover-23.jpg?dl=0",
 		"title": "4th Stage Music Complete Box",
 		"catalog": "AVCA-26531~6",
 		"release_date": "Dec 05, 2007",
@@ -3130,7 +3130,7 @@ var music = {
 		}]
 	}],
 	"collection_4": [{
-		"cover_img": "[bbtimg=172494]",
+		"cover_img": "https://dl.dropbox.com/s/qrrzbczhu6atxux/cover-24.jpg?dl=0",
 		"title": "Absolute Album feat. Keisuke Takahashi",
 		"catalog": "AVCA-26024",
 		"release_date": "Nov 29, 2006",
@@ -3202,7 +3202,7 @@ var music = {
 			"artist": "Go 2"
 		}]
 	},{
-		"cover_img": "[bbtimg=172495]",
+		"cover_img": "https://dl.dropbox.com/s/4tg1rudh3r4e1jo/cover-25.jpg?dl=0",
 		"title": "Battle Stage",
 		"catalog": "AVCA-14357",
 		"release_date": "May 15, 2002",
@@ -3304,7 +3304,7 @@ var music = {
 			"artist": "Wain L"
 		}]
 	},{
-		"cover_img": "[bbtimg=172496]",
+		"cover_img": "https://dl.dropbox.com/s/p8yt8mid57p719x/cover-26.jpg?dl=0",
 		"title": "Battle Stage 2",
 		"catalog": "AVCA-26476~7",
 		"release_date": "Sep 05, 2007",
@@ -3431,7 +3431,7 @@ var music = {
 			"artist": "Ace"
 		}]
 	},{
-		"cover_img": "[bbtimg=172497]",
+		"cover_img": "https://dl.dropbox.com/s/plqhjq1klbxcols/cover-27.jpg?dl=0",
 		"title": "The Movie Of Super Eurobeat",
 		"catalog": "AVCA-14097",
 		"release_date": "Jan 17, 2001",
@@ -3498,7 +3498,7 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "[bbtimg=172498]",
+		"cover_img": "https://dl.dropbox.com/s/j80f1u1ben3mrsx/cover-28.jpg?dl=0",
 		"title": "Vocal Battle",
 		"catalog": "AVCT-15000",
 		"release_date": "Mar 25, 1999",
@@ -3560,7 +3560,7 @@ var music = {
 			"artist": "Natsuki Mogi"
 		}]
 	},{
-		"cover_img": "[bbtimg=172499]",
+		"cover_img": "https://dl.dropbox.com/s/5dl5r7e3wo5wj9k/cover-29.jpg?dl=0",
 		"title": "Vocal Battle Special feat. Takahashi Bros. Red Suns",
 		"catalog": "AVCA-14022",
 		"release_date": "Mar 28, 2001",
@@ -3617,7 +3617,7 @@ var music = {
 			"artist": "Ryosuke Takahashi"
 		}]
 	},{
-		"cover_img": "[bbtimg=172500]",
+		"cover_img": "https://dl.dropbox.com/s/7s0cwt6g8kbaxqv/cover-30.jpg?dl=0",
 		"title": "Break In2 the Nite OP2",
 		"catalog": "AVDT-20035",
 		"release_date": "Nov 11, 1998",
@@ -3639,7 +3639,7 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "[bbtimg=172501]",
+		"cover_img": "https://dl.dropbox.com/s/hl24gvxbl0yv7ic/cover-31.jpg?dl=0",
 		"title": "4th Stage Dogfight OP1",
 		"catalog": "AVCT-30082",
 		"release_date": "May 26, 2004",
@@ -3671,7 +3671,7 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "[bbtimg=172502]",
+		"cover_img": "https://dl.dropbox.com/s/1fd2iok25gnl78b/cover-32.jpg?dl=0",
 		"title": "How To See You Again/Noizy Tribe",
 		"catalog": "AVCT-30092",
 		"release_date": "May 26, 2004",
@@ -3698,7 +3698,7 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "[bbtimg=17250]",
+		"cover_img": "https://dl.dropbox.com/s/8trbr514i0aafos/cover-33.jpg?dl=0",
 		"title": "Blast My Desire",
 		"catalog": "AVCT-30081",
 		"release_date": "May 26, 2004",

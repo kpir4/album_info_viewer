@@ -1,13 +1,9 @@
-body{
-	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-}
-
 .base{
 	height: 500px;
 	width: 924px;
 	background: linear-gradient(#48565b, #060608);
-	position: fixed;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
 .nav_bar{
@@ -41,11 +37,11 @@ body{
 }
 
 .logo{
-	width: 400px;
-	height: 144px;
+	width: 320px;
+	height: 116px;
 	position: relative;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -180px;
 }
 
 a{
