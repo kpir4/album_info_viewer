@@ -176,6 +176,21 @@ img{
 	box-shadow: 0 0 8px #060608;
 }
 
+.button{
+	background-color: #30e871;
+	position: absolute;
+	border-radius: 20px;
+	bottom: 40px;
+	font-size: 12px;
+	padding: 7px 36px;
+	outline: none;
+	border: none;
+	left: 50%;
+	margin-left: -54px;
+	color: #fff;
+	cursor: pointer;
+}
+
 ::-webkit-scrollbar{
 	width: 8px;
 }

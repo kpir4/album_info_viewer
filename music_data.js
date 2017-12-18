@@ -1,11 +1,11 @@
 var collections = ["Original Soundtracks", "Selection Albums", "Mixes, Bests & Collections", "Singles & Others"];
 var music = {
 	"collection_1": [{
-		"cover_img": "cover-1.jpg",
+		"cover_img": "[bbtimg=172471]",
 		"title": "Extra Stage OST",
 		"catalog": "AVCA-14111",
 		"release_date": "Feb 21, 2001",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Get It All Right",
@@ -148,11 +148,11 @@ var music = {
 			"artist": "Mako & Sayuki"
 		}]
 	},{
-		"cover_img": "cover-2.jpg",
+		"cover_img": "[bbtimg=172472]",
 		"title": "Special Stage OST",
 		"catalog": "AVCA-14600",
 		"release_date": "Jun 25, 2003",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Live in Tokyo",
@@ -320,11 +320,11 @@ var music = {
 			"artist": "Mr. Groove"
 		}]
 	},{
-		"cover_img": "cover-3.jpg",
+		"cover_img": "[bbtimg=172473]",
 		"title": "Arcade Stage 4 OST",
 		"catalog": "AVCA-26336~7",
 		"release_date": "Jun 27, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Thunder -out of Kontrol-",
@@ -472,11 +472,11 @@ var music = {
 			"artist": "Ace"
 		}]
 	},{
-		"cover_img": "cover-4.jpg",
+		"cover_img": "[bbtimg=172474]",
 		"title": "Arcade Stage 5 OST",
 		"catalog": "AVCA-29098~9",
 		"release_date": " 	Mar 04, 2009",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Sun in the Rain",
@@ -645,11 +645,11 @@ var music = {
 		}]
 	}],
 	"collection_2": [{
-		"cover_img": "cover-5.jpg",
+		"cover_img": "[bbtimg=172475]",
 		"title": "D Best Selection",
 		"catalog": "AVCD-11779",
 		"release_date": "Mar 08, 2000",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Space Boy",
@@ -802,11 +802,11 @@ var music = {
 			"artist": "Dave McLoud"
 		}]
 	},{
-		"cover_img": "cover-6.jpg",
+		"cover_img": "[bbtimg=172476]",
 		"title": "D Selection",
 		"catalog": "AVCD-11657",
 		"release_date": "Jul 29, 1998",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Space Boy",
@@ -884,11 +884,11 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "cover-7.jpg",
+		"cover_img": "[bbtimg=172477]",
 		"title": "D Selection 2",
 		"catalog": "AVCD-11678",
 		"release_date": "Oct 28, 1998",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Killing My Love",
@@ -966,11 +966,11 @@ var music = {
 			"artist": "Mako & Sayuki"
 		}]
 	},{
-		"cover_img": "cover-8.jpg",
+		"cover_img": "[bbtimg=172478]",
 		"title": "D Selection 3",
 		"catalog": "AVCD-11698",
 		"release_date": "Jan 01, 1999",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Night of Fire",
@@ -1033,11 +1033,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-9.jpg",
+		"cover_img": "[bbtimg=172479]",
 		"title": "2nd Stage D Selection",
 		"catalog": "AVCD-11760",
 		"release_date": "Dec 01, 1999",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Burning Desire",
@@ -1105,11 +1105,11 @@ var music = {
 			"artist": "Mega NRG Man"
 		}]
 	},{
-		"cover_img": "cover-10.jpg",
+		"cover_img": "[bbtimg=172480]",
 		"title": "2nd Stage D Non-Stop Selection",
 		"catalog": "AVCD-11767",
 		"release_date": "Feb 09, 2000",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Speedy Speed Boy",
@@ -1197,11 +1197,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-11.jpg",
+		"cover_img": "[bbtimg=172481]",
 		"title": "4th Stage D Non-Stop Selection",
 		"catalog": "AVCA-22520",
 		"release_date": "Jan 25, 2006",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Wild Reputation 2005",
@@ -1299,11 +1299,11 @@ var music = {
 			"artist": "Fastway"
 		}]
 	},{
-		"cover_img": "cover-12.jpg",
+		"cover_img": "[bbtimg=172482]",
 		"title": "4th Stage D Selection +",
 		"catalog": "AVCA-22151",
 		"release_date": "Nov 17, 2004",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Let’s Go Come On",
@@ -1376,11 +1376,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-13.jpg",
+		"cover_img": "[bbtimg=172483]",
 		"title": "4th Stage D Selection 2",
 		"catalog": "AVCA-22393",
 		"release_date": "Sep 28, 2005",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Supertonic Lady",
@@ -1448,11 +1448,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-14.jpg",
+		"cover_img": "[bbtimg=172484]",
 		"title": "4th Stage D Selection 3",
 		"catalog": "AVCA-22940",
 		"release_date": "Sep 27, 2006",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "No Control",
@@ -1520,11 +1520,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-15.jpg",
+		"cover_img": "[bbtimg=172485]",
 		"title": "Non-Stop Mix Takumi-Selection",
 		"catalog": "AVCA-26171",
 		"release_date": "Jan 31, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Takumi",
@@ -1627,11 +1627,11 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "cover-16.jpg",
+		"cover_img": "[bbtimg=172486]",
 		"title": "Non-Stop Mix Keisuke-Selection",
 		"catalog": "AVCA-26172",
 		"release_date": "Jan 31, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Rider of the Sky",
@@ -1730,11 +1730,11 @@ var music = {
 		}]
 	}],
 	"collection_3": [{
-		"cover_img": "cover-17.jpg",
+		"cover_img": "[bbtimg=172487]",
 		"title": "D Non-Stop Mega Mix",
 		"catalog": "AVCD-11724",
 		"release_date": "Mar 10, 1999",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Love is in Danger",
@@ -1887,11 +1887,11 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "cover-18.jpg",
+		"cover_img": "[bbtimg=172488]",
 		"title": "4th Stage Non-Stop Mega Mix",
 		"catalog": "AVCA-26165",
 		"release_date": "Feb 28, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Let's Go, Come On",
@@ -2104,11 +2104,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-19.jpg",
+		"cover_img": "[bbtimg=172489]",
 		"title": "Special Stage Mega Mix",
 		"catalog": "AVCA-26478",
 		"release_date": "Jan 23, 2008",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Live in Tokyo",
@@ -2276,11 +2276,11 @@ var music = {
 			"artist": "Mr. Groove"
 		}]
 	},{
-		"cover_img": "cover-20.jpg",
+		"cover_img": "[bbtimg=172490]",
 		"title": "Best Song 1998-2004",
 		"catalog": "AVCA-22880",
 		"release_date": "Sep 03, 2005",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Around the World",
@@ -2428,11 +2428,11 @@ var music = {
 			"artist": "Manuel"
 		}]
 	},{
-		"cover_img": "cover-21.jpg",
+		"cover_img": "[bbtimg=172491]",
 		"title": "4th Stage Supereuro Best",
 		"catalog": "AVCA-26031",
 		"release_date": "Dec 13, 2006",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Let's Go, Come On",
@@ -2500,11 +2500,11 @@ var music = {
 			"artist": "Various Artists"
 		}]
 	},{
-		"cover_img": "cover-22.jpg",
+		"cover_img": "[bbtimg=172492]",
 		"title": "Supereuro Best",
 		"catalog": "AVCA-14065",
 		"release_date": "Nov 22, 2000",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Space Boy (New Generation Remix)",
@@ -2577,11 +2577,11 @@ var music = {
 			"artist": "Mickey B."
 		}]
 	},{
-		"cover_img": "cover-23.jpg",
+		"cover_img": "[bbtimg=172493]",
 		"title": "4th Stage Music Complete Box",
 		"catalog": "AVCA-26531~6",
 		"release_date": "Dec 05, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Dogfight",
@@ -3130,11 +3130,11 @@ var music = {
 		}]
 	}],
 	"collection_4": [{
-		"cover_img": "cover-24.jpg",
+		"cover_img": "[bbtimg=172494]",
 		"title": "Absolute Album feat. Keisuke Takahashi",
 		"catalog": "AVCA-26024",
 		"release_date": "Nov 29, 2006",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "No One Sleep in Tokyo",
@@ -3202,11 +3202,11 @@ var music = {
 			"artist": "Go 2"
 		}]
 	},{
-		"cover_img": "cover-25.jpg",
+		"cover_img": "[bbtimg=172495]",
 		"title": "Battle Stage",
 		"catalog": "AVCA-14357",
 		"release_date": "May 15, 2002",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Supersonic Fire",
@@ -3304,11 +3304,11 @@ var music = {
 			"artist": "Wain L"
 		}]
 	},{
-		"cover_img": "cover-26.jpg",
+		"cover_img": "[bbtimg=172496]",
 		"title": "Battle Stage 2",
 		"catalog": "AVCA-26476~7",
 		"release_date": "Sep 05, 2007",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Forever Love Me",
@@ -3431,11 +3431,11 @@ var music = {
 			"artist": "Ace"
 		}]
 	},{
-		"cover_img": "cover-27.jpg",
+		"cover_img": "[bbtimg=172497]",
 		"title": "The Movie Of Super Eurobeat",
 		"catalog": "AVCA-14097",
 		"release_date": "Jan 17, 2001",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Take Me Baby",
@@ -3498,11 +3498,11 @@ var music = {
 			"artist": "Dave Rodgers"
 		}]
 	},{
-		"cover_img": "cover-28.jpg",
+		"cover_img": "[bbtimg=172498]",
 		"title": "Vocal Battle",
 		"catalog": "AVCT-15000",
 		"release_date": "Mar 25, 1999",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Space Boy ~ No One Sleep in Tokyo (Takumix)",
@@ -3560,11 +3560,11 @@ var music = {
 			"artist": "Natsuki Mogi"
 		}]
 	},{
-		"cover_img": "cover-29.jpg",
+		"cover_img": "[bbtimg=172499]",
 		"title": "Vocal Battle Special feat. Takahashi Bros. Red Suns",
 		"catalog": "AVCA-14022",
 		"release_date": "Mar 28, 2001",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "It's So Free",
@@ -3617,11 +3617,11 @@ var music = {
 			"artist": "Ryosuke Takahashi"
 		}]
 	},{
-		"cover_img": "cover-30.jpg",
+		"cover_img": "[bbtimg=172500]",
 		"title": "Break In2 the Nite OP2",
 		"catalog": "AVDT-20035",
 		"release_date": "Nov 11, 1998",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Break In2 the Nite",
@@ -3639,11 +3639,11 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "cover-31.jpg",
+		"cover_img": "[bbtimg=172501]",
 		"title": "4th Stage Dogfight OP1",
 		"catalog": "AVCT-30082",
 		"release_date": "May 26, 2004",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Dogfight",
@@ -3671,11 +3671,11 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "cover-32.jpg",
+		"cover_img": "[bbtimg=172502]",
 		"title": "How To See You Again/Noizy Tribe",
 		"catalog": "AVCT-30092",
 		"release_date": "May 26, 2004",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "How to See You Again",
@@ -3698,11 +3698,11 @@ var music = {
 			"artist": "m.o.v.e"
 		}]
 	},{
-		"cover_img": "cover-33.jpg",
+		"cover_img": "[bbtimg=172503]",
 		"title": "Blast My Desire",
 		"catalog": "AVCT-30081",
 		"release_date": "May 26, 2004",
-		"codec": "",
+		"codec": "FLAC Level 5",
 		"ripper": "",
 		"tracklist": [{
 			"track_title": "Blast My Desire",

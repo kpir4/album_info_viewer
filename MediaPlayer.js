@@ -86,6 +86,10 @@ function load_collections(album_set, collection_set){
 				display_album_info(collection[j]);
 			});
 
+			title.addEventListener("click", function(){
+				display_album_info(collection[j]);
+			});
+
 			// Add classes & attribute
 			cover_wrapper.classList.add("collection_cover");
 			cover_wrapper.setAttribute("album_id", album_id++);
@@ -109,6 +113,7 @@ function display_album_info(album){
 	const release_date = document.createElement("span");
 	const codec = document.createElement("span");
 	const ripper = document.createElement("span");
+	const back = document.createElement("button");
 
 	// Add context
 	cover_art.src = album.cover_img;
@@ -117,6 +122,14 @@ function display_album_info(album){
 	if(album.release_date) release_date.textContent = "Release Date: " + album.release_date;
 	if(album.codec) codec.textContent = "Codec: " + album.codec;
 	if(album.ripper) ripper.textContent = "Ripper: " + album.textContent;
+	back.textContent = "Back".toUpperCase();
+
+	back.addEventListener('click', function(){
+		album_wrapper.classList.add("hide_album_info");
+		setTimeout(function(){
+			album_wrapper.remove();
+		}, 700);
+	});
 
 	// Add classes
 	album_wrapper.classList.add("album_wrapper");
@@ -124,6 +137,7 @@ function display_album_info(album){
 	album_info.classList.add("album_info");
 	album_cover.classList.add("album_cover");
 	title.classList.add("title");
+	back.classList.add("button");
 
 	// Append to document
 	album_cover.appendChild(cover_art);
@@ -138,6 +152,7 @@ function display_album_info(album){
 	album_cover.appendChild(ripper);
 
 	album_info.appendChild(album_cover);
+	album_info.appendChild(back);
 	
 
 	// Add tracklist
