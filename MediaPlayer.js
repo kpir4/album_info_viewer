@@ -111,6 +111,7 @@ function display_album_info(album){
 	const cover_art = document.createElement("img");
 	const title = document.createElement("span");
 	const catalog = document.createElement("span");
+	const vgmdb_link = document.createElement("a");
 	const release_date = document.createElement("span");
 	const codec = document.createElement("span");
 	const ripper = document.createElement("span");
@@ -119,7 +120,14 @@ function display_album_info(album){
 	// Add context
 	cover_art.src = album.cover_img;
 	title.textContent = album.title;
-	catalog.textContent = "Catalog Number: " + album.catalog;
+	if(album.vgmdb_link) {
+		catalog.textContent = "Catalog Number: ";
+		vgmdb_link.textContent = album.catalog
+		vgmdb_link.href = album.vgmdb_link;
+	}
+	else{
+		catalog.textContent = "Catalog Number: " + album.catalog;
+	}
 	if(album.release_date) release_date.textContent = "Release Date: " + album.release_date;
 	if(album.codec) codec.textContent = "Codec: " + album.codec;
 	if(album.ripper) ripper.textContent = "Ripper: " + album.textContent;
@@ -145,6 +153,7 @@ function display_album_info(album){
 	album_cover.appendChild(title);
 	album_cover.appendChild(document.createElement("br"));
 	album_cover.appendChild(catalog);
+	if(album.vgmdb_link) album_cover.appendChild(vgmdb_link);
 	album_cover.appendChild(document.createElement("br"));
 	album_cover.appendChild(release_date);
 	album_cover.appendChild(document.createElement("br"));

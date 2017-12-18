@@ -1,5 +1,5 @@
 .base{
-	height: 500px;
+	height: 720px;
 	width: 924px;
 	background: linear-gradient(#48565b, #060608);
 	/*overflow: hidden;*/
@@ -7,7 +7,7 @@
 }
 
 .nav_bar{
-	height: 500px;
+	height: 720px;
 	width: 200px;
 	float: left;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -52,7 +52,7 @@ a{
 .music_collection{
 	width: 724px;
 	overflow: auto;
-	height: 500px;
+	height: 720px;
 	float: left;
 	box-sizing: border-box;
 	padding: 32px;
@@ -69,6 +69,7 @@ a{
 
 .music_collection h2{
 	font-size: 22px;
+	margin-top: 50px
 }
 
 .music_collection p{
@@ -120,7 +121,7 @@ a{
 
 /* Album info*/
 .album_wrapper{
-	height: 500px;
+	height: 720px;
 	width: 924px;
 	position: absolute;
 	background: linear-gradient(#48565b, #060608);
@@ -129,11 +130,11 @@ a{
 }
 
 .hide_album_info{
-	top: 500px;
+	top: 720px;
 }
 
 .album_info{
-	height: 500px;
+	height: 720px;
 	width: 350px;
 	position: relative;
 	top:0px;
@@ -175,7 +176,7 @@ a{
 
 .track_info{
 	width: 574px;
-	height: 500px;
+	height: 720px;
 	color: #fff;
 	float: left;
 	overflow: auto;
@@ -201,7 +202,7 @@ a{
 	background-color: #30e871;
 	position: absolute;
 	border-radius: 20px;
-	bottom: 40px;
+	bottom: 240px;
 	font-size: 12px;
 	padding: 7px 36px;
 	outline: none;
